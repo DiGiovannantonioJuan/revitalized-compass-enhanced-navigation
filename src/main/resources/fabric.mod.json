@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "revitalizedcompass",
+	"version": "${version}",
+	"name": "Revitalized Compass — Immersive Navigation",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Obi-Juan-Bonomi"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.obijuanbonomi.revitalizedcompass.RevitalizedCompassMod"
+		],
+		"client": [
+			"com.obijuanbonomi.revitalizedcompass.ClientInit"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
